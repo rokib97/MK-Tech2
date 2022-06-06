@@ -1,46 +1,19 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
+import logo from "../images/logo-black.png";
 const Navbar = () => {
   return (
-    <div class="navbar bg-base-100 shadow-lg px-12">
+    <div class="navbar bg-base-100 relative z-50 px-12">
       <div class="flex-1">
-        <p class="btn btn-ghost normal-case text-xl">LOGO</p>
+        <img src={logo} className="w-48" alt="" />
       </div>
-      <div class="flex-none font-bold">
+      <div class="flex-none font-semibold">
         <ul class="menu menu-horizontal p-0">
-          <li>
-            <p>Home</p>
+          <li className="mr-2">
+            <Link to="/">Home</Link>
           </li>
-          <li tabindex="0">
-            <p>
-              Product
-              <svg
-                class="fill-current"
-                xmlns="http://www.w3.org/2000/svg"
-                width="20"
-                height="20"
-                viewBox="0 0 24 24"
-              >
-                <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
-              </svg>
-            </p>
-            <ul class="p-2 bg-base-100">
-              <li>
-                <p>Product 1</p>
-              </li>
-              <li>
-                <p>Product 2</p>
-              </li>
-              <li>
-                <p>Product 3</p>
-              </li>
-              <li>
-                <p>Product 4</p>
-              </li>
-            </ul>
-          </li>
-          <li tabindex="0">
-            <p>
+          <li tabindex="0" className="mr-2">
+            <Link to="/">
               Services
               <svg
                 class="fill-current"
@@ -51,33 +24,61 @@ const Navbar = () => {
               >
                 <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
               </svg>
-            </p>
+            </Link>
             <ul class="p-2 bg-base-100">
               <li>
-                <p>Service 1</p>
+                <Link to="/">Submenu 1</Link>
               </li>
               <li>
-                <p>Service 2</p>
+                <Link to="/">Submenu 1</Link>
               </li>
               <li>
-                <p>Service 3</p>
+                <Link to="/">Submenu 1</Link>
               </li>
               <li>
-                <p>Service 4</p>
+                <Link to="/">Submenu 1</Link>
               </li>
             </ul>
           </li>
-          <li>
-            <p>Become a Client</p>
+          <li tabindex="0" className="mr-2">
+            <Link to="/">
+              Products
+              <svg
+                class="fill-current"
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+              >
+                <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
+              </svg>
+            </Link>
+            <ul class="p-2 bg-base-100">
+              <li>
+                <Link to="/">Submenu 1</Link>
+              </li>
+              <li>
+                <Link to="/">Submenu 1</Link>
+              </li>
+              <li>
+                <Link to="/">Submenu 1</Link>
+              </li>
+              <li>
+                <Link to="/">Submenu 1</Link>
+              </li>
+            </ul>
           </li>
-          <li>
-            <p>About Us</p>
+          <li className="mr-2">
+            <Link to="/">Become a Client</Link>
           </li>
-          <li>
-            <p>Login</p>
+          <li className="mr-2">
+            <Link to="/">About Us</Link>
           </li>
-          <li>
-            <p>Register</p>
+          <li className="mr-2">
+            <Link to="/">Login</Link>
+          </li>
+          <li className="mr-2">
+            <Link to="/">Registration</Link>
           </li>
         </ul>
       </div>
