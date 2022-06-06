@@ -1,5 +1,6 @@
 import React from "react";
 import Carousel from "./Carousel";
+import Experts from "./Experts";
 import Services from "./Services";
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
     <>
       <Carousel />
       <Services />
+      <Experts />
     </>
   );
 };
