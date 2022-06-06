@@ -27,22 +27,28 @@ const Navbar = () => {
             </Link>
             <ul class="p-2 bg-base-100">
               <li>
-                <Link to="/">Submenu 1</Link>
+                <Link to="/">ENGINE DIAGNOSTIC</Link>
               </li>
               <li>
-                <Link to="/">Submenu 1</Link>
+                <Link to="/">WHEEL ALIGNMENT</Link>
               </li>
               <li>
-                <Link to="/">Submenu 1</Link>
+                <Link to="/">SOIL CHANGING</Link>
               </li>
               <li>
-                <Link to="/">Submenu 1</Link>
+                <Link to="/">BRAKE REPARING</Link>
+              </li>
+              <li>
+                <Link to="/">WASH AND GLASSING</Link>
+              </li>
+              <li>
+                <Link to="/">COMPLETE ANALYSIS</Link>
               </li>
             </ul>
           </li>
           <li tabindex="0" className="mr-2">
             <Link to="/">
-              Products
+              Experts
               <svg
                 class="fill-current"
                 xmlns="http://www.w3.org/2000/svg"
@@ -55,21 +61,27 @@ const Navbar = () => {
             </Link>
             <ul class="p-2 bg-base-100">
               <li>
-                <Link to="/">Submenu 1</Link>
+                <Link to="/">Will Smith</Link>
               </li>
               <li>
-                <Link to="/">Submenu 1</Link>
+                <Link to="/">Cris Rock</Link>
               </li>
               <li>
-                <Link to="/">Submenu 1</Link>
+                <Link to="/">Dwayne Rock</Link>
               </li>
               <li>
-                <Link to="/">Submenu 1</Link>
+                <Link to="/">Donald Roward</Link>
+              </li>
+              <li>
+                <Link to="/">Steve Jhonshon</Link>
+              </li>
+              <li>
+                <Link to="/">Will Donald</Link>
               </li>
             </ul>
           </li>
           <li className="mr-2">
-            <Link to="/">Become a Client</Link>
+            <Link to="/">Add a Service</Link>
           </li>
           <li className="mr-2">
             <Link to="/">About Us</Link>

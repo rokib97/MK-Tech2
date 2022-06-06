@@ -1,0 +1,26 @@
+[
+  {
+    "_id": 1,
+    "name": "Henry Holand",
+    "location": "London",
+    "ratings": "4",
+    "ureview": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui unde doloremque cupiditate dolores consectetur facilis possimus amet libero, quod id culpa sequi nihil, iure facere.",
+    "img": "https://i.ibb.co/5MCNWGG/people1.png"
+  },
+  {
+    "_id": 2,
+    "name": "Ananta Khalil",
+    "location": "Dhaka",
+    "ratings": "5",
+    "ureview": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui unde doloremque cupiditate dolores consectetur facilis possimus amet libero, quod id culpa sequi nihil, iure facere.",
+    "img": "https://i.ibb.co/2j2ZhHh/people2.png"
+  },
+  {
+    "_id": 3,
+    "name": "Winson Donald",
+    "location": "California",
+    "ratings": "5",
+    "ureview": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui unde doloremque cupiditate dolores consectetur facilis possimus amet libero, quod id culpa sequi nihil, iure facere.",
+    "img": "https://i.ibb.co/KsYFxck/people3.png"
+  }
+]
